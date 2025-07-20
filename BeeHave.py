@@ -38,6 +38,11 @@ class BeeHave(base.Component):
             default_observer: The default observer of the component.
             default_store: The default store of the component.
         """
+        if not os.path.exists(os.path.join(os.path.join(__file__, "..", "jdk-24", "lib", "modules"))):
+            raise FileNotFoundError(
+                "Java runtime not found. Please download https://xlandscape.org/releases/jdk-24-v1.0.zip and extract "
+                f"it into {os.path.abspath(os.path.join(os.path.join(__file__, '..')))}."
+            )
         super(BeeHave, self).__init__(name, default_observer, default_store)
         self._inputs = base.InputContainer(
             self,
