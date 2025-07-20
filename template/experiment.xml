@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE experiments SYSTEM "behaviorspace.dtd">
+<experiments>
+  <experiment name="experiment" repetitions="1" runMetricsEveryStep="true">
+    <setup>setup</setup>
+    <go>go</go>
+    <timeLimit steps="$(NumberTimeSteps)"/>
+    <metric>day</metric>
+    <metric>totalEggs</metric>
+    <metric>totalLarvae</metric>
+    <metric>totalPupae</metric>
+    <metric>totalIHbees</metric>
+    <metric>totalForagers</metric>
+    <metric>totalIHbees + totalForagers</metric>
+    <metric>totalDroneEggs</metric>
+    <metric>totalDroneLarvae</metric>
+    <metric>totalDronePupae</metric>
+    <metric>totalDrones</metric>
+    <metric>aff</metric>
+    <metric>sumLifeSpanAdultWorkers_t</metric>
+    <metric>deathsAdultWorkers_t</metric>
+    <metric>(honeyEnergyStore / ( ENERGY_HONEY_per_g * 1000 ) )</metric>
+    <metric>PollenStore_g</metric>
+    <metric>harvestedHoney_kg</metric>
+    <metric>phoreticMites</metric>
+    <metric>phoreticMitesHealthyRate</metric>
+    <enumeratedValueSet variable="RAND_SEED">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="DISTANCE_G">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="DISTANCE_R">
+      <value value="1500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="QUANTITY_G_l">
+      <value value="20"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="CRITICAL_COLONY_SIZE_WINTER">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="TIME_NECTAR_GATHERING">
+      <value value="1200"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="QUANTITY_R_l">
+      <value value="20"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Swarming">
+      <value value="&quot;No swarming&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="modelledInsteadCalcDetectProb">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="GenericPlot3">
+      <value value="&quot;active foragers today [%]&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="MergeWeakColonies">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="POLLEN_R_kg">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="INPUT_FILE">
+      <value value="&quot;Input_2-1_FoodFlow.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="DETECT_PROB_R">
+      <value value="0.2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="ForagingMap">
+      <value value="&quot;Nectar and Pollen&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="X_Days">
+      <value value="134"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="QueenAgeing">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="ConstantHandlingTime">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="RemainingHoney_kg">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="N_INITIAL_BEES">
+      <value value="10000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="MAX_km_PER_DAY">
+      <value value="5099"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="MAX_BROODCELLS">
+      <value value="2000099"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="N_INITIAL_MITES_INFECTED">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="MergeColoniesTH">
+      <value value="5000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="AlwaysDance">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="TIME_POLLEN_GATHERING">
+      <value value="600"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="VarroaTreatment">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="MAX_HONEY_STORE_kg">
+      <value value="50"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="SHIFT_G">
+      <value value="-40"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="details">
+      <value value="true"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="GenericPlot8">
+      <value value="&quot;foragers today [%]&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="DotDensity">
+      <value value="0.01"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="DANCE_INTERCEPT">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="GenericPlot2">
+      <value value="&quot;colony structure workers&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="SHIFT_R">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Testing">
+      <value value="&quot;SIMULATION - NO TEST&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="HarvestingPeriod">
+      <value value="80"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="CONC_R">
+      <value value="1.5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="SQUADRON_SIZE">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="FeedBees">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="GenericPlot5">
+      <value value="&quot;nectar availability [l]&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="DETECT_PROB_G">
+      <value value="0.2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="SeasonalFoodFlow">
+      <value value="true"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="DANCE_SLOPE">
+      <value value="1.16"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="EggLaying_IH">
+      <value value="true"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Experiment">
+      <value value="&quot;none&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="HarvestingTH">
+      <value value="20"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="N_INITIAL_MITES_HEALTHY">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="PollenIdeal">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="ProbLazinessWinterbees">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="stopDead">
+      <value value="true"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="GenericPlot1">
+      <value value="&quot;trips per hour sunshine (E-3)&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Virus">
+      <value value="&quot;DWV&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="GenericPlot4">
+      <value value="&quot;mites&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="AddPollen">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="HoneyHarvesting">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="GenericPlot6">
+      <value value="&quot;pollen availability [kg]&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="ReadInfile">
+      <value value="true"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="CONC_G">
+      <value value="1.5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="ShowAllPlots">
+      <value value="true"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Weather">
+      <value value="&quot;Rothamsted (2009)&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="GenericPlot7">
+      <value value="&quot;colony structure workers&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="POLLEN_G_kg">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="writeFile">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="MiteReproductionModel">
+      <value value="&quot;Martin&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="HoneyIdeal">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="HarvestingDay">
+      <value value="135"/>
+    </enumeratedValueSet>
+  </experiment>
+</experiments>
